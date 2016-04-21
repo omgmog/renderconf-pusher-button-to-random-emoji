@@ -67,7 +67,7 @@
                 }
                 var char = '&#x' + dataChar + ';';
                 var encodedchar = decodeURIComponent(escape(char));
-                if ($('.addative input').is(':checked')) {
+                if ($('.additive input').is(':checked')) {
                   $('.output').append(encodedchar);
                 } else {
                   $('.output').html(encodedchar);
